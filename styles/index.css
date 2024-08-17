@@ -156,7 +156,6 @@ header {
     width: 2.8em;
 }
 
-
 /* content */
 .contentt{
     margin-top: 50px;
@@ -213,10 +212,6 @@ header {
     color: #ffffff;
     cursor: pointer;
 }
-
-
-
-
 
 
 
@@ -301,6 +296,9 @@ header {
     color: var(--text-color);
     font-size: 39px;
     font-weight: 600;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 .logo span {
@@ -365,7 +363,7 @@ nav .navlinks li a {
     overflow: hidden;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
     width: 320px;
-    height: 350px;
+    height: 320px;
     color: white;
 }  
 
@@ -391,7 +389,7 @@ nav .navlinks li a {
     flex-direction: column;
     padding: 0 40px;
     font-size: 14px;
-    transition: height 0.5s;
+    transition: height 0.7s;
 }
 
 .overlay h3{
