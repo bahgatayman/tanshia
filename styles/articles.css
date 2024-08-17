@@ -23,7 +23,7 @@
   width: 270px;
   height: 290px;
   border-radius: 20px;
-  background: #e8e8e8;
+  background: #ececec;
   box-shadow: 5px 5px 6px #dadada,
                -5px -5px 6px #f6f6f6;
   transition: 0.4s;
@@ -129,5 +129,5 @@
   
 .title{
     margin-top: 90px;
-
+    font-family:fantasy;
 }
