@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.jpg" class="logo">
+        <a href="index.html"><img src="images/logo.jpg" class="logo"></a>
         
 <div class="searchbar">
     <div class="searchbar-wrapper">
@@ -359,6 +359,23 @@
 
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+<script>
+    /** creating button click show hide navbar **/
+    var togglebtn = document.querySelector(".togglebtn");
+    var nav = document.querySelector(".navlinks");
 
+    togglebtn.addEventListener("click", function(){
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+    })
+
+    var typed = new Typed(".input", {
+        strings: ["Frontend Developer", "UX Designer", "Web Developer"],
+        typedSpeed: 70,
+        backSpeed: 55,
+        loop: true
+    })
+</script>
 </body>
 </html>
